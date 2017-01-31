@@ -1,4 +1,4 @@
-   print('SLAM!! The door burst as two men hold you by the arms')
+int('SLAM!! The door burst as two men hold you by the arms')
 print('Enter number of decision')
 decision = input('1. LET GO OF ME \n2. ...where are you taking me?\n3. shakes furiously out of their grip \n\n Enter number: ')
 print(decision)
@@ -15,12 +15,31 @@ elif decision == '3':
 decision = input('1. look around your cell \n2. think of a way to escape\n3.(how did I get here anyway?) \n\n Enter number: ')
 if decision == '1':
   print ("You can only see white. White walls, white floor...EVERYTHING IS WHITE!!")
-print ("Suddenly you hear faint foosteps coming this way, the white door is slowly opened with a man in a lab coat. He pulls out 2 chairs and sternly asks you to sit down.") 
+  print ("Suddenly you hear faint foosteps coming this way, the white door slolwy opens with a man in a lab coat. He pulls out 2 chairs and sternly asks you to sit down.") 
+  print ("This will just be an evaluation that all inmates have to take when staying in this asylum")
+  print ("You nod your head as you listen to the doc's questions. 30 minutes as the doctor finally ended with the last question.")
+  print ("Do you regret ANY of the murders you committed in your neighborhood?")
+elif decision == '2':
+  print ("You can't seem to find a way to escape the room, maybe if you can get the keys from the doc?")
+  print ("Suddenly you hear faint foosteps coming this way, the white door slolwy opens with a man in a lab coat. He pulls out 2 chairs and sternly asks you to sit down.") 
+  print ("This will just be an evaluation that all inmates have to take when staying in this asylum")
+  print ("You nod your head as you listen to the doc's questions. 30 minutes as the doctor finally ended with the last question.")
+  print ("Do you regret ANY of the murders you committed in your neighborhood?")
+elif decision == '3':
+  print ("You distinctly remember the blaring of the sirens that approached your house. The policemen that barged from the door and stare as your hands are covered in red. The words PYSCHO and YOU MONStER echoed across the streets as you were essorted to the policecar. Who knew that expressing yourself was a crime")
+  print ("Suddenly you hear faint foosteps coming this way, the white door slolwy opens with a man in a lab coat. He pulls out 2 chairs and sternly asks you to sit down.") 
 print ("This will just be an evaluation that all inmates have to take when staying in this asylum")
 print ("You nod your head as you listen to the doc's questions. 30 minutes as the doctor finally ended with the last question.")
 print ("Do you regret ANY of the murders you committed in your neighborhood?")
-
-
-
+print('Enter number of decision')
+decision = input('1. Not at all, you said in a toothy grin \n2.Course not, a voice told me to do it\n3.Yes..now that I look back..\n\n Enter number: ')
+print(decision)
+if decision == '1':
+  print ("The doctor looks at you with antipathy..and jots down some notes.")
+elif decision == '2':
+  print ("He sighs as he jots down notes,You managed to read the words,Needs antipsychotic medications")
+elif decision == '3':
+  print ("The doctor shows a sign of sympathy, he assures you that you will find help. He then jots down some notes..")
+  
 
 
