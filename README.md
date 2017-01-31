@@ -1,4 +1,4 @@
-int('SLAM!! The door burst as two men hold you by the arms')
+print('SLAM!! The door burst as two men hold you by the arms')
 print('Enter number of decision')
 decision = input('1. LET GO OF ME \n2. ...where are you taking me?\n3. shakes furiously out of their grip \n\n Enter number: ')
 print(decision)
