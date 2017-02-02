@@ -36,15 +36,21 @@ decision = input('1. Not at all, you said in a toothy grin \n2.Course not, a voi
 print(decision)
 if decision == '1':
   print ("The doctor looks at you with antipathy..and jots down some notes.")
-  print ("As he stood up you noticed the keys poking from his pocket. You thought quickly, this was a chance to get the key to freedom. The doctor slowly turns to the door, and at a fast pace you managed to pickpocket him without him having the slightest idea. The doctor leaves the room, you are left with your thoughts swarming in your head as you sit alone surrounded by white. You now have the key..what should you do know?")
+  print ("As he stood up you noticed the keys poking from his pocket. You thought quickly, this was a chance to get the key to freedom. The doctor slowly turns to the door, and at a fast pace you managed to pickpocket him without him having the slightest idea. The doctor leaves the room, you are left with your thoughts swarming in your head as you sit alone surrounded by white. You now have the key..what should you do now?")
 elif decision == '2':
   print ("He sighs as he jots down notes,You managed to read the words,Needs antipsychotic medications")
-  print ("As he stood up you noticed the keys poking from his pocket. You thought quickly, this was a chance to get the key to freedom. The doctor slowly turns to the door, and at a fast pace you managed to pickpocket him without him having the slightest idea. The doctor leaves the room, you are left with your thoughts swarming in your head as you sit alone surrounded by white. You now have the key..what should you do know?")
+  print ("As he stood up you noticed the keys poking from his pocket. You thought quickly, this was a chance to get the key to freedom. The doctor slowly turns to the door, and at a fast pace you managed to pickpocket him without him having the slightest idea. The doctor leaves the room, you are left with your thoughts swarming in your head as you sit alone surrounded by white. You now have the key..what should you do now?")
 elif decision == '3':
   print ("The doctor shows a sign of sympathy, he assures you that you will find help. He then jots down some notes..")
-  print ("As he stood up you noticed the keys poking from his pocket. You thought quickly, this was a chance to get the key to freedom. The doctor slowly turns to the door, and at a fast pace you managed to pickpocket him without him having the slightest idea. The doctor leaves the room, you are left with your thoughts swarming in your head as you sit alone surrounded by white. You now have the key..what should you do know?")
+  print ("As he stood up you noticed the keys poking from his pocket. You thought quickly, this was a chance to get the key to freedom. The doctor slowly turns to the door, and at a fast pace you managed to pickpocket him without him having the slightest idea. The doctor leaves the room, you are left with your thoughts swarming in your head as you sit alone surrounded by white. You now have the key..what should you do now?")
   print('Enter number of decision')
   decison = input('1. You decide to not waste any time, you jiggle the keys in the lock, the door is wide open...\n2You wait for a moment, the doctors could still be outside\n\n Enter number: ')
-  
-
+  print(decision)
+  if decision == '1':
+    print ("You run through the cold dark halls,not knowing where you're going. It didn't matter at the moment.YOU ARE FREE!!")
+  story = input('Type continue to continue: ')
+  print(story)
+  if story == 'continue':
+    print ("But your excitement came into a pause when you hear the running footsteps.")
+    print ("HALT!!You found yourself on the ground with a security guard holding you down. You struggled to get out of his grip,screaming LET GO OF ME!! but it was no use. He took out a taser and instantly everything turned to blackness..YOU LOST ;-;")
 
